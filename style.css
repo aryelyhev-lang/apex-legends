@@ -1,27 +1,37 @@
 body {
-    background-image: url(img/Background.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
-    margin: 0%;
+    margin: 0;
+    font-family: Oxanium;
+    background-size: cover;
+    background-image: url(./img/Apex\ world.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 150px;
 }
 
-header {
-    background-color: aqua;
-    height: 40px;
-    width: 100%;
+.h2 {
+    width: 50vw;
+    font-size: 30px;
+    color: #fff;
+    gap: 20px;
     display: flex;
-    justify-content: end;
-    align-items: center;
+    flex-direction: column;
+    justify-content: right;
 }
 
-
-.apex legends {
-    background-color: blue;
-    height: 60px;
-    width: 80vh;
-    align-items: center;
+.icons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    background-color: #000;
+    height: 20px;
+}
+
+.cabecalho {
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    background-color: #000;
+    height: 100px;
+    align-items: center;
+    width: 90%;
 }
